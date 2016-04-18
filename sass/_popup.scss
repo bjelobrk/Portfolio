@@ -1,0 +1,87 @@
+.win1,.win2,.win3{
+
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 11;
+
+}
+
+.close{
+    font-size: 3em;
+    color: #00bae0;
+    position: fixed;
+    right: 2em;
+    top: 2em;
+    cursor: pointer;
+}
+
+.x{
+    width: 45px;
+    height: 45px;
+    background-color: #00bae0;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    border: 2px #fff ;
+
+
+}
+.x p{
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+
+
+}
+
+.wintittle{
+    font-family: 0, Arial, Helvetica, sans-serif !important; 
+    font-size: 80px; 
+    font-style: normal; 		  
+    color: #000000; 
+    font-weight:  normal; 
+    text-transform:  none;
+    padding-top: 60px;
+    padding-bottom:25px; 
+    border-bottom: 2px solid #f0f0f0;    
+}
+.win3 img{
+    padding-top: 35px;
+}
+
+.cv{
+    padding-top: 180px;
+}
+.bottom{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 35px;
+    background-color:#00bae0;
+    color: #fff;
+    line-height: 35px;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+.bottom a{
+    color: #fff;
+
+}
+.bottom a:hover{
+    color:#f0f0f0;
+}
+.letter{
+    width: 700px;
+    text-align: left;
+    margin: 70px auto;
+    color: #00000;
+    font-size: 1.15em;
+}

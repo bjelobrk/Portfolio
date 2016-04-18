@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 7, 2015, 11:31:33 PM
+    Author     : goran
+*/
+.fixed {
+    position: fixed; 
+    top: 0; 
+    height: 70px; 
+    z-index: 1;
+    opacity: 0.94;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    text-align: center;
+    color: #fff;
+    font-family: 'open-sans-bold'; 
+
+
+    -webkit-box-shadow: 0px 1px 9px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 9px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 9px -2px rgba(0,0,0,0.75);;
+
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 25px 10px;
+
+}
+
+nav li a {
+
+    color: #000000;	
+    text-transform: uppercase;
+}
+
+nav li a:hover{
+    color: #00bae0!important;  
+    transition: all 0.3s ease;
+}
+
+@media  screen and (min-width: 600px) {
+
+    .nav-button { display: none; }
+}
+@media  screen and (max-width: 600px) {
+    #screen1 {
+        height: 200px;
+
+    }
+    .home-overlay {
+
+        height: 200px;
+
+    }
+    .intro {
+
+        top: 2%;
+        transform: none;
+    }
+
+    .fixed {
+
+        height: 50px; 
+        opacity: 1;
+    }
+
+    nav {
+        color: #D3D3D3;
+        height: 50px;
+        bottom: none;
+        top:200px;
+
+    }
+    nav li {
+
+        padding: 0px;
+    }
+
+    .primary-nav li {
+        display: none;
+        width: 100%;
+        background: #fff;
+
+
+
+    }
+
+
+    .primary-nav li a {
+        display: block;
+        width: 90%;
+        padding: 14px 5%;
+        font-size: 14px;
+        font-weight: bold;
+        text-shadow: -1px -1px 0 rgba(0,0,0,.15);
+        color: #00000;
+        text-decoration: none;
+
+
+    }
+
+    .primary-nav > li {
+        border-bottom: 1px solid #00bae0;
+    }
+
+
+
+    .primary-nav.open { 
+        height: auto;
+        margin-top: 50px;
+        transition: all 0.1s ease;
+
+    }
+    .primary-nav.open li { 
+        display: block; 
+
+
+    }
+
+    .nav-button {
+        display: block;
+
+        width: 50px;
+        height: 50px;
+        margin: 0;
+        background: url('../images/mobile_menu/menu-icon-large.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 23px, 100%;
+        cursor: pointer;
+        border: 0 none;
+        //box-shadow: 0 0 4px rgba(0,0,0,.7) inset;
+        border-radius: 5px;
+        float: left;
+
+    }
+
+    .nav-button.open {
+
+        background: url('../images/mobile_menu/close-icon-large.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 23px, 100%;
+    }
+
+    .flags a{
+        padding: 14px 7px;
+
+    }
+
+}	
